@@ -1,0 +1,53 @@
+{
+  "name": "my-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "yarn format && yarn type-check && next lint",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\"",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@material-ui/icons": "^5.0.0-beta.5",
+    "@material-ui/lab": "^5.0.0-alpha.44",
+    "@material-ui/styles": "^5.0.0-beta.5",
+    "cookies": "^0.8.0",
+    "framer-motion": "^4.1.17",
+    "http-proxy": "^1.18.1",
+    "immer": "^9.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "11.1.2",
+    "nprogress": "^0.2.0",
+    "ramda": "^0.27.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-intersection-observer": "^8.32.1",
+    "react-toastify": "^8.0.2",
+    "stylis": "^4.0.10",
+    "stylis-plugin-rtl": "^2.1.0",
+    "zustand": "^3.5.10"
+  },
+  "devDependencies": {
+    "@types/cookies": "^0.7.7",
+    "@types/http-proxy": "^1.17.7",
+    "@types/lodash": "^4.14.172",
+    "@types/nprogress": "^0.2.0",
+    "@types/ramda": "^0.27.44",
+    "@types/react": "17.0.20",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.0",
+    "typescript": "4.4.3"
+  }
+}

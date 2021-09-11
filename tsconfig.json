@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+
+    // My config
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components": ["src/ui/components"],
+      "@/config": ["src/logic/config"],
+      "@/constants": ["src/logic/constants"],
+      "@/helpers": ["src/logic/helpers"],
+      "@/hooks": ["src/logic/hooks"],
+      "@/icons": ["src/ui/icons"],
+      "@/libs": ["src/logic/libs"],
+      "@/types": ["src/logic/types"],
+      "@/models": ["src/logic/models"],
+      "@/store": ["src/logic/store"],
+      "@/services": ["src/logic/services"],
+      "@/styles": ["src/ui/styles"],
+      "@/utils": ["src/logic/utils"],
+      "@/zustand": ["src/logic/zustand"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
